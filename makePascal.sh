@@ -9,8 +9,7 @@ numfil=0
 dirnum=1
 totfil=0
 filesHome=/mnt/c/linuxmirror/pascal
-#for i in train test validation
-for i in validation
+for i in train test validation
 do
    for fil in `ls $filesHome/$i/*`
    do
